@@ -1,0 +1,12 @@
+  imagePullSecrets:
+    - name: jmesnil-pull-secret
+  env:
+    - name: POSTGRESQL_DATASOURCE
+      value: ExampleDS
+    - name: POSTGRESQL_DATABASE
+      value: testdb
+    - name: POSTGRESQL_USER
+      value: demo
+    - name: POSTGRESQL_PASSWORD
+      value: demo
+
